@@ -29,7 +29,6 @@ graph TD
     User(User)
     %% Define Subgraphs
     subgraph Backend
-        direction TD
         %% Path 1: Speech-to-Sign
         Speak[Speak words or phrase]
         SpeechRec[Speech Recognition <br> (Google Speech API / CMU Sphinx)]
