@@ -27,11 +27,9 @@ The system operates in two distinct modes, supported by a user-friendly Tkinter 
 ```mermaid
 graph TD
     User(User)
-
     %% Define Subgraphs
     subgraph Backend
         direction TD
-        
         %% Path 1: Speech-to-Sign
         Speak[Speak words or phrase]
         SpeechRec[Speech Recognition <br> (Google Speech API / CMU Sphinx)]
@@ -39,7 +37,6 @@ graph TD
         Translate[Translation <br> (Transformer-based Model)]
         GenerateGIF[Generate GIF from Dataset]
         SpeakAgain{Speak Again?}
-
         %% Path 2: Sign-to-Speech
         Webcam[Start Webcam]
         Keypoints[Hand keypoint Input <br> (MediaPipe Hand Tracking)]
@@ -160,14 +157,6 @@ The system was evaluated for accuracy, speed, and efficiency.
     * Sign-to-Speech: ~**0.75 seconds** per gesture.
 
     * Speech-to-Sign: ~**1.1 seconds** per phrase.
-
----
-
-## Screenshots
-
-*Figure 4: The Speech-to-Sign module converting audio to a GIF.* 
-
-*Figure 5: The Sign-to-Speech module recognizing a gesture from the webcam.* 
 
 ---
 
