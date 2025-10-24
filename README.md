@@ -170,13 +170,8 @@ Future plans to enhance this system include:
 
 ---
 
-## Authors
+## Conference Presentation
 
-This project was developed by:
+[cite_start]We were proud to virtually present this project at the 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT 2025)[cite: 362, 365, 369].
 
-* **Adarsh Arora** 
-* **Ravish Arora** 
-* **Vardhman Surana** 
-* **Praveen Joe IR** 
-
-*School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India*
+![ICCCNT 2025 Presentation Certificate](assets/certificate.png)
