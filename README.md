@@ -31,17 +31,17 @@ graph TD
     subgraph Backend
         %% Path 1: Speech-to-Sign
         Speak[Speak words or phrase]
-        SpeechRec[Speech Recognition <br> (Google Speech API / CMU Sphinx)]
-        LangDetect[Language Detection <br> (Google Translator API)]
-        Translate[Translation <br> (Transformer-based Model)]
+        SpeechRec["Speech Recognition (Google Speech API / CMU Sphinx)"]
+        LangDetect["Language Detection (Google Translator API)"]
+        Translate["Translation (Transformer-based Model)"]
         GenerateGIF[Generate GIF from Dataset]
         SpeakAgain{Speak Again?}
         %% Path 2: Sign-to-Speech
         Webcam[Start Webcam]
-        Keypoints[Hand keypoint Input <br> (MediaPipe Hand Tracking)]
-        Features[Feature Extraction <br> (Keypoint Angles & Distances)]
+        Keypoints["Hand keypoint Input (MediaPipe Hand Tracking)"]
+        Features["Feature Extraction (Keypoint Angles & Distances)"]
         Detect[Detect hand gesture using model]
-        GenerateSpeech[Generate Speech <br> (Google TTS)]
+        GenerateSpeech["Generate Speech (Google TTS)"]
         StartAgain{Start Again?}
     end
 
